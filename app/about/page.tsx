@@ -30,44 +30,19 @@ export default function About() {
         <h2 className="text-xl font-bold">Skills</h2>
         <div className="mb-4">
           <h3 className="font-semibold">Programming Languages</h3>
-          <div className="flex flex-wrap">
-            <span className="badge">Python</span>
-            <span className="badge">Java</span>
-            <span className="badge">C</span>
-          </div>
+          <p>Python, Java, C</p>
         </div>
         <div className="mb-4">
           <h3 className="font-semibold">Tools & Libraries</h3>
-          <div className="flex flex-wrap">
-            <span className="badge">Pandas</span>
-            <span className="badge">NumPy</span>
-            <span className="badge">Matplotlib</span>
-            <span className="badge">Scikit-learn</span>
-            <span className="badge">TensorFlow</span>
-            <span className="badge">Keras</span>
-            <span className="badge">PyTorch</span>
-            <span className="badge">Streamlit</span>
-          </div>
+          <p>Pandas, NumPy, Matplotlib, Scikit-learn, TensorFlow, Keras, PyTorch, Streamlit</p>
         </div>
         <div className="mb-4">
           <h3 className="font-semibold">Data Analysis</h3>
-          <div className="flex flex-wrap">
-            <span className="badge">Data Preprocessing</span>
-            <span className="badge">Data Cleaning</span>
-            <span className="badge">Data Visualization</span>
-          </div>
+          <p>Data Preprocessing, Data Cleaning, Data Visualization</p>
         </div>
         <div className="mb-4">
           <h3 className="font-semibold">Platforms</h3>
-          <div className="flex flex-wrap">
-            <span className="badge">Google Colab</span>
-            <span className="badge">Kaggle</span>
-            <span className="badge">Hugging Face</span>
-            <span className="badge">OpenAI</span>
-            <span className="badge">Google Cloud</span>
-            <span className="badge">GitHub</span>
-            <span className="badge">Git (Basic)</span>
-          </div>
+          <p>Google Colab, Kaggle, Hugging Face, OpenAI, Google Cloud, GitHub, Git (Basic)</p>
         </div>
       </section>
       <section id="skills">
