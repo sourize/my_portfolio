@@ -1,7 +1,7 @@
 export const metaData = {
   baseUrl: "https://sourize.vercel.app/",
-  title: "Sourish C.",
-  name: "Sourish",
+  title: "Sourish",
+  name: "Sourish Chatterjee",
   ogImage: "/opengraph-image.png",
   description:
     "An Aspiring ML Engineer",
