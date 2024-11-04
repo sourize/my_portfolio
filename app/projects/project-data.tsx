@@ -8,27 +8,35 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Project One",
-    year: 2023,
+    title: "NIFTY-50 Stock Prediction Model",
+    year: 2024,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
-    imageUrl: "photos/photo1.jpg",
+      "A Predictive Model to predict Nifty-50 Stock.",
+    url: "https://github.com/sourize/Nifty_50Stock_PredictionModel",
+    imageUrl: "folio/nifty50.jpeg",
   },
   {
-    title: "Project Two",
-    year: 2022,
+    title: "Energy Consumption Prediction Model",
+    year: 2024,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
-    imageUrl: "photos/photo2.jpg",
+      "A Predictive Model to predict Energy Consumption based on some features as input.",
+    url: "https://github.com/sourize/EnergyConsumption",
+    imageUrl: "folio/energy.jpeg",
   },
   {
-    title: "Project Three",
-    year: 2021,
+    title: "Real Estate Price Prediction Model",
+    year: 2024,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
-    imageUrl: "photos/photo3.jpg",
+      "A Predictive Model to predict Real Estate Price based on some features as input.",
+    url: "https://github.com/sourize/Real-Estate-Price-Prediction-Using-Machine-Learning",
+    imageUrl: "folio/realestate.jpeg",
   },
+  {
+    title: "Restaurant Review Sentiment Analysis Model",
+    year: 2024,
+    description:
+      "An NLP Model to predict whether a review is positive or negative.",
+    url: "https://github.com/sourize/Restaurant-Review-Sentiment-Analysis-Model",
+    imageUrl: "folio/restaurant.jpeg",
+  },  
 ];
