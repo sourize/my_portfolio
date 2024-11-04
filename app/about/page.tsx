@@ -19,15 +19,56 @@ export default function About() {
         <p className="mb-4">
           Currently, I'm in my 3rd year pursuing a B. Tech in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning. I've built projects in real estate price prediction and natural language processing, and I'm skilled in Python, scikit-learn, and data science tools, with a focus on transforming data into actionable insights. My career objective is to innovate solutions in AI/ML that drive real-world impact.
         </p>
+        </section>
+        <section id="whyAIML">
+        <h2 className="text-xl font-bold">Why AI and ML?</h2>
         <p className="mb-4">
           It all started with a spark—a fascination with how technology could unlock the mysteries of the universe, inspired by the genius of <em>Tony Stark</em>. Today, I channel that spark into crafting models that push the boundaries of Artificial Intelligence, predicting stock markets, and evolving game AI.
         </p>
       </section>
-      <section id="whyAIML">
-        <h2 className="text-xl font-bold">Why AI and ML?</h2>
-        <p className="mb-4">
-          AI/ML Wizardry: Bringing ideas to life using neural networks, random forests, and other ML models. Python is my go-to language. Data Whisperer: Transforming raw data into actionable insights with Pandas, Numpy, and Matplotlib. Team Player: Collaborating effectively through internships, hackathons, and group projects.
-        </p>
+      <section id="Skills">
+        <h2 className="text-xl font-bold">Skills</h2>
+        <div className="mb-4">
+          <h3 className="font-semibold">Programming Languages</h3>
+          <div className="flex flex-wrap">
+            <span className="badge">Python</span>
+            <span className="badge">Java</span>
+            <span className="badge">C</span>
+          </div>
+        </div>
+        <div className="mb-4">
+          <h3 className="font-semibold">Tools & Libraries</h3>
+          <div className="flex flex-wrap">
+            <span className="badge">Pandas</span>
+            <span className="badge">NumPy</span>
+            <span className="badge">Matplotlib</span>
+            <span className="badge">Scikit-learn</span>
+            <span className="badge">TensorFlow</span>
+            <span className="badge">Keras</span>
+            <span className="badge">PyTorch</span>
+            <span className="badge">Streamlit</span>
+          </div>
+        </div>
+        <div className="mb-4">
+          <h3 className="font-semibold">Data Analysis</h3>
+          <div className="flex flex-wrap">
+            <span className="badge">Data Preprocessing</span>
+            <span className="badge">Data Cleaning</span>
+            <span className="badge">Data Visualization</span>
+          </div>
+        </div>
+        <div className="mb-4">
+          <h3 className="font-semibold">Platforms</h3>
+          <div className="flex flex-wrap">
+            <span className="badge">Google Colab</span>
+            <span className="badge">Kaggle</span>
+            <span className="badge">Hugging Face</span>
+            <span className="badge">OpenAI</span>
+            <span className="badge">Google Cloud</span>
+            <span className="badge">GitHub</span>
+            <span className="badge">Git (Basic)</span>
+          </div>
+        </div>
       </section>
       <section id="skills">
         <h2 className="text-xl font-bold">Skills</h2>
