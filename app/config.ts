@@ -1,6 +1,6 @@
 export const metaData = {
   baseUrl: "https://sourize.vercel.app/",
-  title: "Sourish's Portfolio",
+  title: "SCfolio",
   name: "Sourish",
   ogImage: "/opengraph-image.png",
   description:
