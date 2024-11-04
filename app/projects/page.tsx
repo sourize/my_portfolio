@@ -21,6 +21,7 @@ export default function Projects() {
             className="block group hover:opacity-80 transition-opacity duration-200"
           >
             <div className="flex flex-col">
+              <img src={project.imageUrl} alt={project.title} className="mb-4 rounded" />
               <div className="w-full flex justify-between items-baseline">
                 <span className="text-black dark:text-white font-medium tracking-tight">
                   {project.title}
