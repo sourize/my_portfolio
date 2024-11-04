@@ -3,6 +3,7 @@ export interface Project {
   year: number;
   description: string;
   url: string;
+  imageUrl: string;
 }
 
 export const projects: Project[] = [
@@ -12,6 +13,7 @@ export const projects: Project[] = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
     url: "https://example.com/",
+    imageUrl: "public/photos/photo1.jpg",
   },
   {
     title: "Project Two",
@@ -19,6 +21,7 @@ export const projects: Project[] = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
     url: "https://example.com/",
+    imageUrl: "public/photos/photo2.jpg",
   },
   {
     title: "Project Three",
@@ -26,5 +29,6 @@ export const projects: Project[] = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
     url: "https://example.com/",
+    imageUrl: "public/photos/photo3.jpg",
   },
 ];
